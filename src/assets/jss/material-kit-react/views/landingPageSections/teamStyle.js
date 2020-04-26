@@ -23,7 +23,8 @@ const teamStyle = {
     color: "#6c757d"
   },
   description: {
-    color: "#999"
+    color: "#999",
+    fontWeight: "400",
   },
   justifyCenter: {
     justifyContent: "center !important"
@@ -41,7 +42,14 @@ const teamStyle = {
   },
   margin5: {
     margin: "5px"
-  }
+  },
+  iconWrapperVertical: {
+    float: "none"
+  },
+  iconVertical: {
+    width: "80px",
+    height: "80px"
+  },
 };
 
 export default teamStyle;

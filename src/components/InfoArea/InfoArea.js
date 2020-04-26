@@ -12,26 +12,25 @@ const useStyles = makeStyles(styles);
 
 export default function InfoArea(props) {
   const classes = useStyles();
-  const { title, description, iconColor, vertical, info } = props;
+  const { title, description, icon, vertical, info } = props;
   const iconWrapper = classNames({
     [classes.iconWrapper]: true,
-    [classes[iconColor]]: true,
-    [classes.iconWrapperVertical]: vertical
   });
   const iconClasses = classNames({
     [classes.icon]: true,
-    [classes.iconVertical]: vertical
+    [classes.iconHori]: !vertical,
+    [classes.iconVertical]: vertical,
   });
 
   return (
     <div className={classes.infoArea}>
       <div className={iconWrapper}>
-        <props.icon className={iconClasses} />
+        <img src={icon} className={iconClasses} />
       </div>
       <div className={classes.descriptionWrapper}>
         <h4 className={classes.title}>{title}</h4>
         <p className={classes.description}>{description}</p>
-        <p className={classes.description}>{info}</p>
+        <p className={classes.description} dangerouslySetInnerHTML={{__html: info}}></p>
       </div>
     </div>
   );
@@ -44,14 +43,5 @@ InfoArea.defaultProps = {
 InfoArea.propTypes = {
   icon: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
-  iconColor: PropTypes.oneOf([
-    "primary",
-    "warning",
-    "danger",
-    "success",
-    "info",
-    "rose",
-    "gray"
-  ]),
-  vertical: PropTypes.bool
+  vertical: PropTypes.bool,
 };

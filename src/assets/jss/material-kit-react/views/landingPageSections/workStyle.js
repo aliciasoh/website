@@ -14,7 +14,8 @@ const workStyle = {
   },
   description: {
     color: "#999",
-    textAlign: "center"
+    textAlign: "center",
+    fontWeight: "400",
   },
   textCenter: {
     textAlign: "center"

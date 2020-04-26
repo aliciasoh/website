@@ -12,17 +12,19 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/work
 
 const useStyles = makeStyles(styles);
 
-export default function WorkSection() {
+export default function WorkSection(props) {
   const classes = useStyles();
+  const { title, description, info } = props;
+
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let's have a coffee:</h2>
+          <h2 className={classes.title}>{title}</h2>
           <h4 className={classes.description}>
-            Feel free to reach out to me via: aliciasoh7@gmail.com
+            {description}
           </h4>
-          <p className={classes.description}>Or you can reach out to me via any social media platforms (links in the header)</p>
+          <p className={classes.description} dangerouslySetInnerHTML={{__html: info}}></p>
         </GridItem>
       </GridContainer>
     </div>

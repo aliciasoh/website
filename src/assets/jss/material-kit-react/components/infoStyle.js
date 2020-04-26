@@ -16,7 +16,7 @@ const infoStyle = {
     padding: "0px"
   },
   iconWrapper: {
-    float: "left",
+    float: "none",
     marginTop: "24px",
     marginRight: "10px"
   },
@@ -54,13 +54,15 @@ const infoStyle = {
     color: grayColor,
     overflow: "hidden",
     marginTop: "0px",
-    fontSize: "14px"
-  },
-  iconWrapperVertical: {
-    float: "none"
+    fontSize: "14px",
+    fontWeight: "400",
   },
   iconVertical: {
     width: "61px",
+    height: "61px"
+  },
+  iconHori: {
+    width: "auto",
     height: "61px"
   }
 };
