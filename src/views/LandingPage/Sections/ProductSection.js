@@ -8,7 +8,8 @@ import jtc from "assets/img/jobs/jtc.png";
 import sc from "assets/img/jobs/sc.png";
 import odafy from "assets/img/jobs/odafy.png";
 import sambla from "assets/img/jobs/sambla.png";
-
+import swedbank from "assets/img/jobs/swedbank.jpg";
+import advisory from "assets/img/jobs/advisory.png";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -26,10 +27,13 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>About me</h2>
           <h5 className={classes.description}>
-            I see you are interested to know more about me. I graduated from National University of Singapore (NUS)
-            with a Bachelor Degree in Computing. I have been playing and representing my schools (since 13 years old) for
-            Floorball (Innebandy) competitions regionally as well as in overseas competitions. I am currently residing in Stockholm, Sweden,
-            and working as a Fullstack Developer. Here are my list of experiences:
+            I see you are interested to know more about me. I graduated from
+            National University of Singapore (NUS) with a Bachelor Degree in
+            Computing. I have been playing and representing my schools (since 13
+            years old) for Floorball (Innebandy) competitions regionally as well
+            as in overseas competitions. I am currently residing in Stockholm,
+            Sweden, and working as a Fullstack Developer. Here are my list of
+            experiences:
           </h5>
         </GridItem>
       </GridContainer>
@@ -75,7 +79,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Co-Founder/ CTO 🇸🇬"
-              description="💼Odafy (Jan 2018 - Apr 2020)"
+              description="💼Odafy (Jan 2018 - Sept 2020)"
               info="Started my own company, Odafy. </br></br>Lead my team for technology (using using AngularJS, IonicJS, Google Cloud Platforms, Firebase, Google Ads, Facebook Ads, Google Analytics, Adobe Creative Suites, Social Media Marketing) and initiated a transformation for our product Byte - revamped Byte UI, changed the entire tech architecture and marketing approach. Within 5 months, we launched Byte and we attained +200 customers and boosted our social media reach during our first week of launch. We have raised investments from investors prior to our launch"
               icon={odafy}
               vertical
@@ -84,9 +88,27 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Fullstack Developer 🇸🇪"
-              description="💼Sambla AB Financial Services (Jan 2020 - Current)"
+              description="💼Sambla AB Financial Services (Jan 2020 - Aug 2020)"
               info="Fullstack Developer for Sambla AB Financial Services in Stockholm, Sweden. </br></br>Worked using ReactJS, NodeJS to develop software and platforms for the Nordic market as well as implementing A/B testing and data analytics tools (using Google Analytics, Hotjar, Sitegainer, Hypertune, Segment.io) to ultimately increase profits. </br></br>You can view some of my work at <a href='https://github.com/aliciasoh-sambla'>https://github.com/aliciasoh-sambla/</a>"
               icon={sambla}
+            />
+          </GridItem>
+        </GridContainer>
+        <GridContainer>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Youth Mentor 🇸🇬"
+              description="💼Advisory Singapore (Jul 2020 - Current)"
+              info="Serving as a youth mentor in Advisory Singapore to guide youths in their careers choices and education choices"
+              icon={advisory}
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Fullstack Software Engineer 🇸🇪"
+              description="💼Swedbank (Aug 2020 - Current)"
+              info="Working as a Fullstack Software Engineer in Swedbank AB in Sweden"
+              icon={swedbank}
             />
           </GridItem>
         </GridContainer>
