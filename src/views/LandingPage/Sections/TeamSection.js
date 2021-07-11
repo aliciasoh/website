@@ -23,11 +23,11 @@ export default function TeamSection() {
   const classes = useStyles();
   const iconWrapper = classNames({
     [classes.iconWrapper]: true,
-    [classes.iconWrapperVertical]: true,
+    [classes.iconWrapperVertical]: true
   });
   const iconClasses = classNames({
     [classes.icon]: true,
-    [classes.iconVertical]: true,
+    [classes.iconVertical]: true
   });
 
   return (
@@ -47,10 +47,18 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  I love to play all kinds of sports. 
-                  I have been playing floorball (Innebandy) competitively since 13 years old both regionally as well as in overseas competitions.
-                  You can <a href="https://www.redsports.sg/2012/05/29/a-div-floorball-girls-vjc-yjc/">read this article online</a> that was written when my Junior College team qualified for
-                  finals in 2012 (and eventually won champions). Or you can <a href="https://www.youtube.com/watch?v=2eE54e_Mh_g">watch this video</a> where I was interviewed instead.
+                  I love to play all kinds of sports. I have been playing
+                  floorball (Innebandy) competitively since 13 years old both
+                  regionally as well as in overseas competitions. You can{" "}
+                  <a href="https://www.redsports.sg/2012/05/29/a-div-floorball-girls-vjc-yjc/">
+                    read this article online
+                  </a>{" "}
+                  that was written when my Junior College team qualified for
+                  finals in 2012 (and eventually won champions). Or you can{" "}
+                  <a href="https://www.youtube.com/watch?v=2eE54e_Mh_g">
+                    watch this video
+                  </a>{" "}
+                  where I was interviewed instead.
                 </p>
               </CardBody>
             </Card>
@@ -67,8 +75,14 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Women are underrepresented in the tech industry - I hope to inspire, promote and enable gender diversity across all aspects of the digital economy.
-                  You can <a href="https://www.sc.com/en/explore-our-world/women-in-tech-alicias-story/">click here to read and watch my interview</a> about my experience working in the tech sector (in Standard Chartered Bank) as a young female.
+                  Women are underrepresented in the tech industry - I hope to
+                  inspire, promote and enable gender diversity across all
+                  aspects of the digital economy. You can{" "}
+                  <a href="https://www.sc.com/en/explore-our-world/women-in-tech-alicias-story/">
+                    click here to read and watch my interview
+                  </a>{" "}
+                  about my experience working in the tech sector (in Standard
+                  Chartered Bank) as a young female.
                 </p>
               </CardBody>
             </Card>
@@ -85,8 +99,8 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  I love travelling, experiencing and learning different cultures and way of life.
-                  This is why I decided to relocate out of my home, to Stockholm, Sweden!
+                  I love travelling, experiencing and learning different
+                  cultures and way of life.
                 </p>
               </CardBody>
             </Card>
@@ -103,7 +117,8 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  I have a Rottweiler named Mino. His birthday is on the 29th September 2019.
+                  I have a Rottweiler named Mino. His birthday is on the 29th
+                  September 2019.
                 </p>
               </CardBody>
             </Card>
@@ -120,8 +135,16 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  I enjoy working with technologies and using my creativity to create new ideas/ software/ platforms/ tools to make lives simpler and easier.
-                  Regardless of whether it is software developing, analytics, UI/UX design, I'd be so eager to get my hands dirty on it. You can view more of my software development/ analytics/ UI/UX designs that I have done in my github account here: <a href="https://github.com/aliciasoh">https://github.com/aliciasoh</a>
+                  I enjoy working with technologies and using my creativity to
+                  create new ideas/ software/ platforms/ tools to make lives
+                  simpler and easier. Regardless of whether it is software
+                  developing, analytics, UI/UX design, I'd be so eager to get my
+                  hands dirty on it. You can view more of my software
+                  development/ analytics/ UI/UX designs that I have done in my
+                  github account here:{" "}
+                  <a href="https://github.com/aliciasoh">
+                    https://github.com/aliciasoh
+                  </a>
                 </p>
               </CardBody>
             </Card>

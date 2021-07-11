@@ -46,10 +46,13 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Hi, I'm Alicia. This is my story.</h1>
+              <h1 className={classes.title}>
+                Hi, I'm Alicia. This is my story.
+              </h1>
               <h4>
-                Born and raised in Singapore 🇸🇬 but now I'm currently residing in Stockholm, Sweden 🇸🇪, working full time as a Fullstack Developer.
-                I love to play sports, I love travelling, animals and I do love technology.
+                Born and raised in Singapore 🇸🇬, working full time as a Software
+                Engineer. I love to play sports, I love travelling, animals and
+                I do love technology.
               </h4>
             </GridItem>
           </GridContainer>
@@ -58,9 +61,22 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection />
-          <WorkSection title={"My Skills:"} info={"Frontend: </br></br>Angular.js, Ember.js, Ionic.js, React.js, Redux, Javascript, jQuery, HTML5, CSS, SASS, Material Design, Bootstrap, Objective C, Java (Android), Unity</br></br>Backend: </br></br>Java, Node.js, SpringBoot, REST, PHP, SQL, NoSQL (Firebase, MongoDB), PostgreSQL, MySQL, C programming, C# programming, Python, Wordpress</br></br>DevOps/ Cloud: </br></br>Google Cloud Platform, AWS, Kibana, Ansible, Jenkins, Travis, Surge, Heroku, Git, Bitbucket, Github, Confluence, Jira, Zenhub, Asana, Slack</br></br>Analytics: </br></br>Google Analytics, Hotjar, Symplify, Hypertune, Segment.io, Google Ads, Facebook Ads, Python, R</br></br>UI/UX/ Testing/ Others: </br></br>Agile, Scrum, Adobe Creative Suite (Adobe Photoshop, Illustrator, Indesign), Stakeholder engagement, Release management, Automated testing (Cucumber, Selenium, Mocha, Jest)"} />
+          <WorkSection
+            title={"My Skills:"}
+            info={
+              "Frontend: </br></br>Angular.js, Ember.js, Ionic.js, React.js, Redux, Javascript, jQuery, HTML5, CSS, SASS, Material Design, Bootstrap, Objective C, Java (Android), Unity</br></br>Backend: </br></br>Java, Node.js, SpringBoot, REST, PHP, SQL, NoSQL (Firebase, MongoDB), PostgreSQL, MySQL, C programming, C# programming, Python, Wordpress</br></br>DevOps/ Cloud: </br></br>Google Cloud Platform, AWS, Kibana, Ansible, Jenkins, Travis, Surge, Heroku, Git, Bitbucket, Github, Confluence, Jira, Zenhub, Asana, Slack</br></br>Analytics: </br></br>Google Analytics, Hotjar, Symplify, Hypertune, Segment.io, Google Ads, Facebook Ads, Python, R</br></br>UI/UX/ Testing/ Others: </br></br>Agile, Scrum, Adobe Creative Suite (Adobe Photoshop, Illustrator, Indesign), Stakeholder engagement, Release management, Automated testing (Cucumber, Selenium, Mocha, Jest)"
+            }
+          />
           <TeamSection />
-          <WorkSection title={"Let's have a coffee:"} description={"Feel free to reach out to me via: aliciasoh7@gmail.com"} info={"Or you can reach out to me via any social media platforms (links in the header)"} />
+          <WorkSection
+            title={"Let's have a coffee:"}
+            description={
+              "Feel free to reach out to me via: aliciasoh7@gmail.com"
+            }
+            info={
+              "Or you can reach out to me via any social media platforms (links in the header)"
+            }
+          />
         </div>
       </div>
       <Footer />

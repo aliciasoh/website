@@ -10,6 +10,7 @@ import odafy from "assets/img/jobs/odafy.png";
 import sambla from "assets/img/jobs/sambla.png";
 import swedbank from "assets/img/jobs/swedbank.jpg";
 import advisory from "assets/img/jobs/advisory.png";
+import citibank from "assets/img/jobs/citi.png";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -27,13 +28,11 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>About me</h2>
           <h5 className={classes.description}>
-            I see you are interested to know more about me. I graduated from
-            National University of Singapore (NUS) with a Bachelor Degree in
-            Computing. I have been playing and representing my schools (since 13
-            years old) for Floorball (Innebandy) competitions regionally as well
-            as in overseas competitions. I am currently residing in Stockholm,
-            Sweden, and working as a Fullstack Developer. Here are my list of
-            experiences:
+            I graduated from National University of Singapore (NUS) with a
+            Bachelor Degree in Computing. I have been playing and representing
+            my schools (since 13 years old) for Floorball (Innebandy)
+            competitions regionally as well as in overseas competitions. Here
+            are my list of experiences:
           </h5>
         </GridItem>
       </GridContainer>
@@ -106,9 +105,17 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Fullstack Software Engineer 🇸🇪"
-              description="💼Swedbank (Aug 2020 - Current)"
+              description="💼Swedbank AB (Aug 2020 - Feb 2021)"
               info="Working as a Fullstack Software Engineer in Swedbank AB in Sweden"
               icon={swedbank}
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Software Engineer 🇸🇬"
+              description="💼Citibank (Feb 2021 - Current)"
+              info="Working as a Software Engineer in Citibank in Singapore"
+              icon={citibank}
             />
           </GridItem>
         </GridContainer>
