@@ -11,6 +11,8 @@ import sambla from "assets/img/jobs/sambla.png";
 import swedbank from "assets/img/jobs/swedbank.jpg";
 import advisory from "assets/img/jobs/advisory.png";
 import citibank from "assets/img/jobs/citi.png";
+import jp from "assets/img/jobs/jp.png";
+
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -31,8 +33,8 @@ export default function ProductSection() {
             I graduated from National University of Singapore (NUS) with a
             Bachelor Degree in Computing. I have been playing and representing
             my schools (since 13 years old) for Floorball (Innebandy)
-            competitions regionally as well as in overseas competitions. Here
-            are my list of experiences:
+            competitions regionally as well as in overseas competitions. I do
+            enjoy playing other sports as well. Here are my list of experiences:
           </h5>
         </GridItem>
       </GridContainer>
@@ -113,9 +115,17 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Software Engineer 🇸🇬"
-              description="💼Citibank (Feb 2021 - Current)"
+              description="💼Citibank (Feb 2021 - Nov 2021)"
               info="Working as a Software Engineer in Citibank in Singapore"
               icon={citibank}
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Software Engineer 🇸🇬"
+              description="JP Morgan (Nov 2021 - Current)"
+              info="Working as a Software Engineer in JP Morgan in Singapore"
+              icon={jp}
             />
           </GridItem>
         </GridContainer>

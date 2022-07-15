@@ -7,6 +7,7 @@ import travel from "assets/img/me/travel.jpg";
 import mino from "assets/img/me/mino.jpg";
 import fb from "assets/img/me/fb.jpg";
 import tech from "assets/img/me/tech.jpg";
+import soccer from "assets/img/me/soccer.jpeg";
 
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
@@ -59,6 +60,23 @@ export default function TeamSection() {
                     watch this video
                   </a>{" "}
                   where I was interviewed instead.
+                </p>
+              </CardBody>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <div className={iconWrapper}>
+                <img src={soccer} className={iconClasses} />
+              </div>
+              <h4 className={classes.cardTitle}>
+                Sports
+                <br />
+                <small className={classes.smallTitle}>Other sports</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  I do enjoy playing other sports such as soccer and ice hockey!
                 </p>
               </CardBody>
             </Card>
