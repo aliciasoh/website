@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/website/static/css/main.691c0b82.chunk.css",
-    "main.js": "/website/static/js/main.dcbd1466.chunk.js",
-    "main.js.map": "/website/static/js/main.dcbd1466.chunk.js.map",
+    "main.js": "/website/static/js/main.a8802db3.chunk.js",
+    "main.js.map": "/website/static/js/main.a8802db3.chunk.js.map",
     "runtime~main.js": "/website/static/js/runtime~main.66790c67.js",
     "runtime~main.js.map": "/website/static/js/runtime~main.66790c67.js.map",
-    "static/js/2.58382ee2.chunk.js": "/website/static/js/2.58382ee2.chunk.js",
-    "static/js/2.58382ee2.chunk.js.map": "/website/static/js/2.58382ee2.chunk.js.map",
+    "static/js/2.414c0456.chunk.js": "/website/static/js/2.414c0456.chunk.js",
+    "static/js/2.414c0456.chunk.js.map": "/website/static/js/2.414c0456.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.6b96041b0608613fb52d4e43e7b3507a.js": "/website/precache-manifest.6b96041b0608613fb52d4e43e7b3507a.js",
+    "precache-manifest.199036c286b22346efc00ab295bc42a9.js": "/website/precache-manifest.199036c286b22346efc00ab295bc42a9.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/main.691c0b82.chunk.css.map": "/website/static/css/main.691c0b82.chunk.css.map",
     "static/media/advisory.png": "/website/static/media/advisory.f765f3fb.png",
@@ -24,7 +24,6 @@
     "static/media/soccer.jpeg": "/website/static/media/soccer.6b3b513f.jpeg",
     "static/media/swedbank.jpg": "/website/static/media/swedbank.4aef49d6.jpg",
     "static/media/tech.jpg": "/website/static/media/tech.9be05746.jpg",
-    "static/media/travel.jpg": "/website/static/media/travel.5f2fb1ce.jpg",
-    "static/media/wit.jpg": "/website/static/media/wit.d5e89569.jpg"
+    "static/media/travel.jpg": "/website/static/media/travel.5f2fb1ce.jpg"
   }
 }
