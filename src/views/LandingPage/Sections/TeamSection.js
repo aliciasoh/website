@@ -50,16 +50,7 @@ export default function TeamSection() {
                 <p className={classes.description}>
                   I love to play all kinds of sports. I have been playing
                   floorball (Innebandy) competitively since 13 years old both
-                  regionally as well as in overseas competitions. You can{" "}
-                  <a href="https://www.redsports.sg/2012/05/29/a-div-floorball-girls-vjc-yjc/">
-                    read this article online
-                  </a>{" "}
-                  that was written when my Junior College team qualified for
-                  finals in 2012 (and eventually won champions). Or you can{" "}
-                  <a href="https://www.youtube.com/watch?v=2eE54e_Mh_g">
-                    watch this video
-                  </a>{" "}
-                  where I was interviewed instead.
+                  regionally as well as in overseas competitions.
                 </p>
               </CardBody>
             </Card>
@@ -77,30 +68,6 @@ export default function TeamSection() {
               <CardBody>
                 <p className={classes.description}>
                   I do enjoy playing other sports such as soccer and ice hockey!
-                </p>
-              </CardBody>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <div className={iconWrapper}>
-                <img src={wit} className={iconClasses} />
-              </div>
-              <h4 className={classes.cardTitle}>
-                Women in Tech
-                <br />
-                <small className={classes.smallTitle}>Advocate</small>
-              </h4>
-              <CardBody>
-                <p className={classes.description}>
-                  Women are underrepresented in the tech industry - I hope to
-                  inspire, promote and enable gender diversity across all
-                  aspects of the digital economy. You can{" "}
-                  <a href="https://www.sc.com/en/explore-our-world/women-in-tech-alicias-story/">
-                    click here to read and watch my interview
-                  </a>{" "}
-                  about my experience working in the tech sector (in Standard
-                  Chartered Bank) as a young female.
                 </p>
               </CardBody>
             </Card>

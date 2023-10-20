@@ -31,10 +31,7 @@ export default function ProductSection() {
           <h2 className={classes.title}>About me</h2>
           <h5 className={classes.description}>
             I graduated from National University of Singapore (NUS) with a
-            Bachelor Degree in Computing. I have been playing and representing
-            my schools (since 13 years old) for Floorball (Innebandy)
-            competitions regionally as well as in overseas competitions. I do
-            enjoy playing other sports as well. Here are my list of experiences:
+            Bachelor Degree in Computing. I was awarded the NUS Sports Honorary Award (National University of Singapore Women's Floorball Team) as well as Certificate of Merit in ICT Solutioning Knowledge Area (National University of Singapore School Of Computing). Here are my list of experiences:
           </h5>
         </GridItem>
       </GridContainer>
