@@ -2,7 +2,6 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import wit from "assets/img/me/wit.jpg";
 import travel from "assets/img/me/travel.jpg";
 import mino from "assets/img/me/mino.jpg";
 import fb from "assets/img/me/fb.jpg";
