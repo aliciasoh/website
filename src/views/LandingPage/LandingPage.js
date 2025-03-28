@@ -50,8 +50,8 @@ export default function LandingPage(props) {
                 Hi, I'm Alicia. Welcome to my website.
               </h1>
               <h4>
-                Born and raised in Singapore 🇸🇬, working full time as a Software
-                Engineer. I love to play sports, travel and I am an animal lover.
+                Currently working full time as a Software Engineer in Singaore
+                🇸🇬 I love to play sports, travel and I am an animal lover.
               </h4>
             </GridItem>
           </GridContainer>
@@ -63,7 +63,7 @@ export default function LandingPage(props) {
           <WorkSection
             title={"My Skills:"}
             info={
-              "Frontend: </br></br>Angular.js, Ember.js, Ionic.js, React.js, Redux, Javascript, jQuery, HTML5, CSS, SASS, Material Design, Bootstrap, Objective C, Java (Android), Unity</br></br>Backend: </br></br>Java, Node.js, SpringBoot, REST, PHP, SQL, NoSQL (Firebase, MongoDB), PostgreSQL, MySQL, C programming, C# programming, Python, Wordpress</br></br>DevOps/ Cloud: </br></br>Google Cloud Platform, AWS, Kibana, Ansible, Jenkins, Travis, Surge, Heroku, Git, Bitbucket, Github, Confluence, Jira, Zenhub, Asana, Slack</br></br>Analytics: </br></br>Adobe Analytics, Google Analytics, Hotjar, Symplify, Hypertune, Segment.io, Google Ads, Facebook Ads, Python, R</br></br>UI/UX/ Testing/ Others: </br></br>Agile, Scrum, Adobe Creative Suite (Adobe Photoshop, Illustrator, Indesign), Stakeholder engagement, Release management, Automated testing (Cucumber, Selenium, Mocha, Jest, Cypress)"
+              "Frontend: </br></br>Angular.js, Ember.js, Ionic.js, React.js, Typescript, Redux, Javascript, jQuery, HTML5, CSS, SASS, Material Design, Bootstrap, Objective C, Java (Android), Unity</br></br>Backend: </br></br>Java, Node.js, SpringBoot, REST, PHP, SQL, NoSQL (Firebase, MongoDB), PostgreSQL, MySQL, C programming, C# programming, Python, Wordpress</br></br>DevOps/ Cloud: </br></br>Google Cloud Platform, AWS, Kibana, Ansible, Jenkins, Travis, Surge, Heroku, Git, Bitbucket, Github, Confluence, Jira, Zenhub, Asana, Slack</br></br>Analytics: </br></br>Adobe Analytics, Google Analytics, Hotjar, Symplify, Hypertune, Segment.io, Google Ads, Facebook Ads, Python, R</br></br>UI/UX/ Testing/ Others: </br></br>Agile, Scrum, Adobe Creative Suite (Adobe Photoshop, Illustrator, Indesign), Stakeholder engagement, Release management, Automated testing (Cucumber, Selenium, Mocha, Jest, Cypress), Playwright, Vitest, Accessibility testing"
             }
           />
           <TeamSection />

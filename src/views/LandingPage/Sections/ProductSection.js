@@ -31,7 +31,11 @@ export default function ProductSection() {
           <h2 className={classes.title}>About me</h2>
           <h5 className={classes.description}>
             I graduated from National University of Singapore (NUS) with a
-            Bachelor Degree in Computing. I was awarded the NUS Sports Honorary Award (National University of Singapore Women's Floorball Team) as well as Certificate of Merit in ICT Solutioning Knowledge Area (National University of Singapore School Of Computing). Here are my list of experiences:
+            Bachelor Degree in Computing. I was awarded the NUS Sports Honorary
+            Award (National University of Singapore Women's Floorball Team) as
+            well as Certificate of Merit in ICT Solutioning Knowledge Area
+            (National University of Singapore School Of Computing). Here are my
+            list of experiences:
           </h5>
         </GridItem>
       </GridContainer>
@@ -70,7 +74,7 @@ export default function ProductSection() {
             <InfoArea
               title="Fullstack Developer 🇸🇬"
               description="💼Standard Chartered Bank (Jul 2017 - Jan 2020)"
-              info="Joined Standard Chartered IT Graduate Program in 2017. Worked in multiple projects for Retail Banking (using EmberJS, AngularJS, Java, Springboot, Objective C, Wordpress, Python) as well as Private Wealth Banking (using using EmberJS, Java, Springboot). </br></br>I was featured in the Bank’s #WomenInTech video in 2017-2019. I also had the opportunity to present at the Bank’s 2018 Fintech Festival. Worked on multiple projects for different markets (Singapore, Malaysia, Hong Kong, China, UAE, India, Pakistan, Kenya) with global teams (from Singapore, India, China, Hong Kong, Malaysia). </br></br>You can view some of my work at <a href='https://github.com/aliciasoh-sc'>https://github.com/aliciasoh-sc/</a>"
+              info="Joined Standard Chartered IT Graduate Program in 2017. Worked in multiple projects for Retail Banking (using EmberJS, AngularJS, Java, Springboot, Objective C, Wordpress, Python) as well as Private Wealth Banking (using using EmberJS, Java, Springboot). </br></br>I was featured in the Bank’s #WomenInTech video in 2017-2019. I also had the opportunity to present at the Bank’s 2018 Fintech Festival and got involved in many other activities. Worked on multiple projects for different markets (Singapore, Malaysia, Hong Kong, China, UAE, India, Pakistan, Kenya) with global teams (from Singapore, India, China, Hong Kong, Malaysia). </br></br>You can view some of my work at <a href='https://github.com/aliciasoh-sc'>https://github.com/aliciasoh-sc/</a>"
               icon={sc}
             />
           </GridItem>
@@ -78,7 +82,7 @@ export default function ProductSection() {
             <InfoArea
               title="Co-Founder/ CTO 🇸🇬"
               description="💼Odafy (Jan 2018 - Sept 2020)"
-              info="Started my own company, Odafy. </br></br>Lead my team for technology (using using AngularJS, IonicJS, Google Cloud Platforms, Firebase, Google Ads, Facebook Ads, Google Analytics, Adobe Creative Suites, Social Media Marketing) and initiated a transformation for our product Byte - revamped Byte UI, changed the entire tech architecture and marketing approach. Within 5 months, we launched Byte and we attained +200 customers and boosted our social media reach during our first week of launch. We have raised investments from investors prior to our launch"
+              info="Started my own company, Odafy. </br></br>Led my team for technology (using using AngularJS, IonicJS, Google Cloud Platforms, Firebase, Google Ads, Facebook Ads, Google Analytics, Adobe Creative Suites, Social Media Marketing) and initiated a transformation for our product Byte - revamped Byte UI, changed the entire tech architecture and marketing approach. Within 5 months, we launched Byte and we attained +200 customers and boosted our social media reach during our first week of launch. We have raised investments from investors prior to our launch"
               icon={odafy}
               vertical
             />
@@ -105,7 +109,7 @@ export default function ProductSection() {
             <InfoArea
               title="Fullstack Software Engineer 🇸🇪"
               description="💼Swedbank AB (Aug 2020 - Feb 2021)"
-              info="Working as a Fullstack Software Engineer in Swedbank AB in Sweden"
+              info="Worked as a Fullstack Software Engineer in Swedbank AB in Sweden"
               icon={swedbank}
             />
           </GridItem>
@@ -113,15 +117,23 @@ export default function ProductSection() {
             <InfoArea
               title="Software Engineer 🇸🇬"
               description="💼Citibank (Feb 2021 - Nov 2021)"
-              info="Working as a Software Engineer in Citibank in Singapore"
+              info="Worked as a Software Engineer in Citibank in Singapore"
               icon={citibank}
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Software Engineer 🇸🇬"
-              description="JP Morgan (Nov 2021 - Current)"
+              description="JP Morgan (Nov 2021 - Apr 2024)"
               info="Working as a Software Engineer in JP Morgan in Singapore"
+              icon={jp}
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Software Engineer 🇬🇧"
+              description="JP Morgan (Apr 2024 - Current)"
+              info="Working as a Software Engineer in JP Morgan in London"
               icon={jp}
             />
           </GridItem>
